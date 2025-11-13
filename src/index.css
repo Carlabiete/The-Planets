@@ -1,0 +1,94 @@
+:root {
+  --font-family-headings: "Antonio", sans-serif;
+  --font-family-text: "Spartan", sans-serif;
+
+  --text-primary: #fff;
+  --bg-primary: #000010;
+
+  --accent-color-mercury: hsl(230, 50%, 50%);
+  --accent-color-venus: hsl(30, 50%, 55%);
+  --accent-color-earth: hsl(263, 67%, 51%);
+  --accent-color-mars: hsl(10, 67%, 50%);
+  --accent-color-jupiter: hsl(25, 70%, 55%);
+  --accent-color-saturn: hsl(40, 50%, 50%);
+  --accent-color-uranus: hsl(190, 50%, 45%);
+  --accent-color-neptune: hsl(222, 87%, 56%);
+  --accent-color: var(--accent-color-earth);
+
+  --border-opacity-20: rgb(255 255 255 / 0.2);
+}
+
+@font-face {
+  font-family: "Spartan";
+  font-weight: 400;
+  src: url("/public/fonts/Spartan-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Spartan";
+  font-weight: 600;
+  src: url("/public/fonts/Spartan-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Antonio";
+  font-weight: 400;
+  src: url("/public/fonts/Antonio-Regular.woff2") format("woff2");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family-text);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--text-primary);
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: var(--bg-primary);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.logo {
+  font-family: var(--font-family-headings);
+  font-size: 1em;
+  line-height: 1;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+button {
+  cursor: pointer;
+  color: inherit;
+  font: inherit;
+  text-transform: inherit;
+  letter-spacing: inherit;
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+svg {
+  path {
+    fill: currentColor;
+  }
+}
