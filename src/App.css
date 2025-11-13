@@ -168,13 +168,6 @@ h2 {
   text-align: start;
   background-color: transparent;
   transition: background-color 0.2s ease;
-  span {
-    width: 30px;
-    opacity: 0.5;
-  }
-  &:hover {
-    background-color: rgb(255 255 255 /0.1);
-  }
 }
 
 .desktop-tabs-holder {
@@ -186,6 +179,13 @@ h2 {
     gap: 24px;
     padding: 20px 30px;
     border: var(--border-opacity-20) solid 1.5px;
+    span {
+    width: 30px;
+    opacity: 0.5;
+    }
+    &:hover {
+      background-color: rgb(255 255 255 /0.1);
+    }
   }
   .tab-btn--active {
     border-color: transparent;
