@@ -4,7 +4,7 @@ function ImageSection({ planetData }) {
       <img
         key={planetData.image}
         loading="lazy"
-        src={planetData.image}
+        src={`/assets/${planetData.image}`}
         alt={planetData.name}
       />
     </div>
