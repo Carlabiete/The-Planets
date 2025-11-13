@@ -3,7 +3,6 @@ function ImageSection({ planetData }) {
     <div className="image-section">
       <img
         key={planetData.image}
-        loading="lazy"
         src={`assets/${planetData.image}`}
         alt={planetData.name}
       />
@@ -12,4 +11,5 @@ function ImageSection({ planetData }) {
 }
 
 export default ImageSection;
+
 
