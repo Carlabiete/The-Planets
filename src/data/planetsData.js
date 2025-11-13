@@ -1,7 +1,7 @@
 export const planetsData = {
   mercury: {
     name: "Mercury",
-    image: "src/assets/planet-mercury.png",
+    image: "/assets/planet-mercury.png",
     overview: {
       content:
         "Mercury is the smallest planet in our solar system and the closest to the Sun. It's only slightly larger than Earth's Moon. From the surface of Mercury, the Sun would appear more than three times as large as it does when viewed from Earth.",
@@ -37,7 +37,7 @@ export const planetsData = {
   },
   venus: {
     name: "Venus",
-    image: "src/assets/planet-venus.png",
+    image: "/assets/planet-venus.png",
     overview: {
       content:
         "Venus is the second planet from the Sun and is Earth's closest planetary neighbor. It's one of the four terrestrial planets, and it's often called Earth's sister planet because of their similar size, mass, and proximity to the Sun.",
@@ -72,7 +72,7 @@ export const planetsData = {
   },
   earth: {
     name: "Earth",
-    image: "src/assets/planet-earth.png",
+    image: "/assets/planet-earth.png",
     overview: {
       content:
         "Third planet from the Sun and the only known planet to harbor life. About 29.2% of Earth's surface is land with remaining 70.8% is covered with water. Earth's distance from the Sun, physical properties and geological history have allowed life to evolve and thrive.",
@@ -107,7 +107,7 @@ export const planetsData = {
   },
   mars: {
     name: "Mars",
-    image: "src/assets/planet-mars.png",
+    image: "/assets/planet-mars.png",
     overview: {
       content:
         "Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System. It's often referred to as the 'Red Planet' due to its reddish appearance caused by iron oxide prevalent on its surface.",
@@ -143,7 +143,7 @@ export const planetsData = {
   },
   jupiter: {
     name: "Jupiter",
-    image: "src/assets/planet-jupiter.png",
+    image: "/assets/planet-jupiter.png",
     overview: {
       content:
         "Jupiter is the fifth planet from the Sun and the largest in the Solar System. It's a gas giant with a mass one-thousandth that of the Sun, but two-and-a-half times that of all the other planets in the Solar System combined.",
@@ -178,7 +178,7 @@ export const planetsData = {
   },
   saturn: {
     name: "Saturn",
-    image: "src/assets/planet-saturn.png",
+    image: "/assets/planet-saturn.png",
     overview: {
       content:
         "Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter. It's a gas giant with an average radius about nine times that of Earth. It's most famous for its prominent ring system.",
@@ -213,7 +213,7 @@ export const planetsData = {
   },
   uranus: {
     name: "Uranus",
-    image: "src/assets/planet-uranus.png",
+    image: "/assets/planet-uranus.png",
     overview: {
       content:
         "Uranus is the seventh planet from the Sun. It has the third-largest planetary radius and fourth-largest planetary mass in the Solar System. Uranus is similar in composition to Neptune, and both are ice giants.",
@@ -248,7 +248,7 @@ export const planetsData = {
   },
   neptune: {
     name: "Neptune",
-    image: "src/assets/planet-neptune.png",
+    image: "/assets/planet-neptune.png",
     overview: {
       content:
         "Neptune is the eighth and farthest-known Solar planet from the Sun. It's the fourth-largest planet by diameter, the third-most-massive planet, and the densest giant planet. It's 17 times the mass of Earth.",
